@@ -101,14 +101,6 @@ class CountryApp {
         `;
 
         this.countryInfo.innerHTML = countryContent;
-
-        console.log(this.info[code].name);
-        console.log(this.info[code].population);
-        console.log(this.info[code].currencies[0].name);
-        console.log(this.info[code].currencies[0].symbol);
-        console.log(this.info[code].timezones);
-        console.log(this.info[code].callingCodes);
-        console.log(this.info[code].topLevelDomain);
     }
 }
 
