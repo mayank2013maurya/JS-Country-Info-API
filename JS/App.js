@@ -29,7 +29,7 @@ class CountryApp {
 
         try {
             const changeName = e.target.value;
-            if (changeName !== cName && changeName !== "Select") {
+            if (changeName === cName && changeName !== "Select") {
                 this.changeFlag(changeName);
                 this.changeInfo(changeName);
             } else if (changeName === "Select") {
