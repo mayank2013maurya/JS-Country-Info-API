@@ -106,4 +106,4 @@ class CountryApp {
 
 const app = new CountryApp();
 countryMenu.addEventListener("click", e => app.currentCountry(e));
-countryMenu.addEventListener("touchleave", e => app.currentCountry(e));
+countryMenu.addEventListener("touchend", e => app.currentCountry(e));
