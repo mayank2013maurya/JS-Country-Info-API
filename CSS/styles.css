@@ -69,3 +69,13 @@ body {
     flex-flow: column wrap;
     align-items: center;
 }
+.powered-by {
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+}
+
+.powered-by a {
+    font-size: 1.2rem;
+    color: #A3E4D7;
+    text-decoration: none;
+}
